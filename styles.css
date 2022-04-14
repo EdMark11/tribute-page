@@ -1,1 +1,89 @@
 /* Copy and paste your CSS from CodePen into here */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Martel:wght@800&display=swap');
+
+body {
+  font-family: 'Lato', sans-sarif;
+  background: url(https://images.unsplash.com/photo-1528410428104-1bad908f05fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+h1 {
+  font-family: 'Martel', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#tribute-info {
+  padding: 30px 50px 2px 50px;
+  border-bottom: 10px orange solid;
+  border-radius: 60px;
+}
+
+#image {
+  display: block;
+  max-width: 60%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px orange solid;
+  border-radius: 50px;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#timeline {
+  line-height: 1.5;
+  border-top: 10px orange solid;
+  border-bottom: 10px orange solid;
+  border-radius: 60px;
+  padding: 5px 50px 2px 50px;
+}
+
+#accolades {
+  line-height: 1.5;
+  border-top: 10px orange solid;
+  border-bottom: 10px orange solid;
+  border-radius: 60px;
+  margin-top: 20px;
+  padding: 10px 50px 2px 50px;
+}
+
+nav {
+  background-color: #bd7031; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;    
+   
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: black;
+  padding: 20px;
+}
+
+h3 {
+  background-color: #bd7031;
+  text-align: center;
+  padding: 15px;
+  margin: 25px 200px;
+  border-radius: 20px;
+}
